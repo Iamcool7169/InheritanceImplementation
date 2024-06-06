@@ -1,7 +1,7 @@
 public class BakedGoods {
     private String name;
-    private int cookingTime; // in minutes
-    private int flourUsed; // in grams
+    private int cookingTime;
+    private int flourUsed;
 
     public BakedGoods(String name, int cookingTime, int flourUsed) {
         this.name = name;
@@ -9,7 +9,6 @@ public class BakedGoods {
         this.flourUsed = flourUsed;
     }
 
-    // Getter and Setter methods for name
     public String getName() {
         return name;
     }
@@ -18,7 +17,6 @@ public class BakedGoods {
         this.name = name;
     }
 
-    // Getter and Setter methods for cooking time
     public int getCookingTime() {
         return cookingTime;
     }
@@ -27,7 +25,6 @@ public class BakedGoods {
         this.cookingTime = cookingTime;
     }
 
-    // Getter and Setter methods for flour used
     public int getFlourUsed() {
         return flourUsed;
     }
