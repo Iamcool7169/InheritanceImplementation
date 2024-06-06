@@ -3,7 +3,6 @@ public class Sweet extends BakedGoods {
         super(name, cookingTime, flourUsed);
     }
 
-    @Override
     public String getFlourUsedInfo() {
         return "Sweet " + getName() + ": " + getFlourUsed() + " grams of flour used";
     }
